@@ -8,3 +8,4 @@ echo "<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.
 echo "<script src='https://kit.fontawesome.com/4541e18ef9.js' crossorigin='anonymous'></script>";
 echo "</head>";
   ?>
+    <script>
