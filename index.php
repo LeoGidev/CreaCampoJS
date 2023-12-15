@@ -34,3 +34,12 @@ function delTarea() {
 
 </script>
 </head>
+<body>
+<div id="tareas" class="border-1 rounded p-3">
+        <span> Agregar sub-tarea </span>
+    <input type="button" class="btn btn-success" id="add_tarea()" onClick="addTarea()" value="+" />
+    <input type="button" class="btn btn-danger" id="eliminar" onClick="delTarea()" value="-" />
+    <!--<input class="form-control" name="subt_1" type="text" placeholder='subtarea'/>-->
+    
+    </div>
+</body>
