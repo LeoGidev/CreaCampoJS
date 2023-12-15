@@ -20,4 +20,17 @@ function addTarea(){
         document.getElementById('tareas').appendChild(div);document.getElementById('tareas').appendChild(div);
 }
 
+function delTarea() {
+    if (a > 1) {
+        var divs = document.getElementById('tareas').getElementsByClassName('form');
+        var lastDiv = divs[divs.length - 1];
+        lastDiv.parentNode.removeChild(lastDiv);
+        a--;
+    }
+}
 
+
+  
+
+</script>
+</head>
