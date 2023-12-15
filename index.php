@@ -8,4 +8,16 @@ echo "<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.
 echo "<script src='https://kit.fontawesome.com/4541e18ef9.js' crossorigin='anonymous'></script>";
 echo "</head>";
   ?>
-    <script>
+       <script>
+a = 1;
+function addTarea(){
+        a++;
+        var div = document.createElement('div');
+        div.setAttribute('class', 'form');
+        
+            div.innerHTML = '<input class="form-control" name="subt_'+a+'" type="text" placeholder="subtarea" required/>';
+        
+        document.getElementById('tareas').appendChild(div);document.getElementById('tareas').appendChild(div);
+}
+
+
