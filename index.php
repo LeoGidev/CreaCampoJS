@@ -15,7 +15,7 @@ function addTarea(){
         var div = document.createElement('div');
         div.setAttribute('class', 'form');
         
-            div.innerHTML = '<input class="form-control" name="subt_'+a+'" type="text" placeholder="subtarea" required/>';
+            div.innerHTML = '<input class="form-control" name="subt_'+a+'" type="text" placeholder="campo nuevo" required/>';
         
         document.getElementById('tareas').appendChild(div);document.getElementById('tareas').appendChild(div);
 }
@@ -36,7 +36,7 @@ function delTarea() {
 </head>
 <body>
 <div id="tareas" class="border-1 rounded p-3">
-        <span> Agregar sub-tarea </span>
+        <span> Agregar campo </span>
     <input type="button" class="btn btn-success" id="add_tarea()" onClick="addTarea()" value="+" />
     <input type="button" class="btn btn-danger" id="eliminar" onClick="delTarea()" value="-" />
     
